@@ -1,0 +1,3 @@
+# Copy to mock_data_config.yaml and fill in your own values. mock_data_config.yaml is git-ignored.
+# Path to the source product spreadsheet (relative to where you run the script, or absolute).
+source_xlsx: path/to/source_product_data.xlsx

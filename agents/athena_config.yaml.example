@@ -1,0 +1,6 @@
+# Copy to athena_config.yaml and fill in your own values. athena_config.yaml is git-ignored.
+# AWS credentials are read from the AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY environment variables.
+region: us-east-1
+athena_db: your_athena_database
+s3_staging_dir: s3://your-athena-query-results-bucket/your-prefix/
+workgroup: primary

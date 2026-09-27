@@ -1,0 +1,28 @@
+# ---- Large third-party data ----
+graph-llm/data/
+
+# ---- Derived from proprietary source data ----
+tabular/mock_data*.csv
+tabular/mock_data*.zip
+tabular/test_trainer/*.csv
+
+# ---- Real configs (copy from the .example files) ----
+agents/athena_config.yaml
+tabular/mock_data_config.yaml
+
+# ---- Model artifacts ----
+*.pt
+*.pth
+*.pkl
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
